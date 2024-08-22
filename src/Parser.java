@@ -38,8 +38,8 @@ public class Parser {
 
                 tagCounter.put(tag, tagCounter.getOrDefault(tag, 0) + 1);
 
-                String portProtocolKey = dstport + "," + protocol;
-                protocolCounter.put(portProtocolKey, protocolCounter.getOrDefault(portProtocolKey, 0) + 1);
+                String portKey = dstport + "," + protocol;
+                protocolCounter.put(portKey, protocolCounter.getOrDefault(portKey, 0) + 1);
 
                 if (tag.equals("Untagged")) {
                     untaggedCounter++;

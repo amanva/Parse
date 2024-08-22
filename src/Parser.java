@@ -8,7 +8,7 @@ public class Parser {
 
     public static void main(String[] args) {
         String flowLog = "src/file.txt";
-        String tableFile = "src/table.txt";
+        String tableFile = "src/table.csv";
         int untaggedCounter = 0;
         Map<String, String> lookup = getLookTable(tableFile);
         Map<String, Integer> tagCounter = new HashMap<>();

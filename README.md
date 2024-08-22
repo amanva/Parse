@@ -13,6 +13,8 @@ This Java program parses a file containing flow log data and maps each row to a 
 
 <h3>Compilation</h3>
 
+Download the zip file and extract the necessary files
+
 To compile the program, go to the directory of the source code and run the following command:
 javac Parser.java
 
